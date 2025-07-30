@@ -36,14 +36,16 @@ All colors MUST be HSL.
     --input: 0 0% 95%;
     --ring: 0 100% 50%;
 
-    /* YouTube-specific tokens */
-    --youtube-red: 0 100% 50%;
-    --youtube-red-hover: 0 100% 45%;
-    --youtube-bg: 0 0% 99%;
-    --youtube-surface: 0 0% 100%;
-    --youtube-text: 213 31% 10%;
-    --youtube-text-secondary: 213 19% 46%;
-    --youtube-border: 0 0% 90%;
+    /* ChatGPT-specific tokens */
+    --chat-primary: 160 84% 39%;
+    --chat-primary-hover: 160 84% 35%;
+    --chat-bg: 0 0% 100%;
+    --chat-surface: 0 0% 100%;
+    --chat-text: 212 10% 14%;
+    --chat-text-secondary: 213 5% 39%;
+    --chat-border: 214 13% 91%;
+    --chat-user-bg: 160 84% 39%;
+    --chat-assistant-bg: 210 11% 96%;
     
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--youtube-red-hover)));
