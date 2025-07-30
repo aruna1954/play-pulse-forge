@@ -24,6 +24,15 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				youtube: {
+					red: 'hsl(var(--youtube-red))',
+					'red-hover': 'hsl(var(--youtube-red-hover))',
+					bg: 'hsl(var(--youtube-bg))',
+					surface: 'hsl(var(--youtube-surface))',
+					text: 'hsl(var(--youtube-text))',
+					'text-secondary': 'hsl(var(--youtube-text-secondary))',
+					border: 'hsl(var(--youtube-border))',
+				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
